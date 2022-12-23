@@ -1,0 +1,30 @@
+#root {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #2f363e;
+}
+
+#time {
+  display: flex;
+  gap: 30px;
+}
+
+.newYear {
+  font-size: 8em;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  line-height: 0.6em;
+}
+
+.newYear span {
+  font-size: 0.5em;
+  font-weight: 300;
+  background: linear-gradient(to right, #fbcac9, #5e82b8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
