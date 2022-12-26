@@ -1,9 +1,15 @@
-import Welcome from "./components/Welcome";
-import "./css/main.css";
-import "./css/style.css";
+// import Welcome from "./components/Welcome";
+// import "./css/main.css";
+// import "./css/style.css";
+
+// function App() {
+//   return <Welcome />;
+// }
+
+import Scene from "./components/Scene";
 
 function App() {
-  return <Welcome />;
+  return <Scene />;
 }
 
 export default App;
