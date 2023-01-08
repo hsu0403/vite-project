@@ -14,9 +14,15 @@ import TestThree from "./components/TestThree";
 import TestTwo from "./components/TestTwo";
 import "./css/test.css";
 import TestFbx from "./components/TestFbx";
+import TestFont from "./components/TestFont";
+import TestBackground from "./components/TestBackground";
+import TestDynamicEnvironmentMap from "./components/TestDynamicEnvironmentMap";
+import TestGlassMaterial from "./components/TestGlassMaterial";
+import TestPickingAndParticle from "./components/TestPickingAndParticle";
+import TestDomino from "./components/TestDomino";
 
 function App() {
-  return <TestFbx />;
+  return <TestDomino />;
 }
 
 export default App;
